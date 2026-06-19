@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "zantrokeregular";
+  src:
+    url("fonts/zantroke-webfont.woff") format("woff"),
+    src url("fonts/zantroke-webfont.woff2") format("woff2");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ciclefina";
+  src:
+    url("fonts/cicle_fina-webfont.woff") format("woff"),
+    src url("fonts/cicle_fina-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* General setup */
 
 html {
