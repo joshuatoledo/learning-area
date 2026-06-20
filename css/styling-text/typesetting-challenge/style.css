@@ -1,3 +1,12 @@
+/* .google-sans {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+} */
+
 /* General setup */
 
 * {
@@ -22,8 +31,35 @@ main {
 
 /* header and footer */
 
+header,
+body {
+  letter-spacing: 0.1rem;
+}
+
 header {
   border-bottom: 5px solid #aa6666;
+  font-family: "Google Sans";
+  text-align: center;
+  font-variation-settings: "GRAD" 0;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Rubik";
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+h2 + p {
+  text-indent: 2rem;
+}
+
+section > h2 {
+  font-family: "Google Sans";
+  font-size: 1.3rem;
+  margin: 0 auto;
 }
 
 footer {
@@ -32,4 +68,5 @@ footer {
 
 footer p {
   text-align: center;
+  font-family: "Google Sans";
 }
