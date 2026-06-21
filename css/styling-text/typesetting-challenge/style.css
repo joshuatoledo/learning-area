@@ -62,6 +62,29 @@ section > h2 {
   margin: 0 auto;
 }
 
+a {
+  outline-color: transparent;
+}
+
+a:link {
+  color: #f80505;
+}
+
+a:visited {
+  color: #ea0707;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  background: #ed9e9e;
+}
+
+a:active {
+  background: #be5151;
+  color: #e52c38;
+}
+
 a[href^="http"]::after {
   content: "";
   display: inline-block;
