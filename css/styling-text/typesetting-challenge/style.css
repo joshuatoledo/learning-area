@@ -62,6 +62,17 @@ section > h2 {
   margin: 0 auto;
 }
 
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.25em;
+
+  background-size: 100%;
+  background-image: url("picture.png");
+}
+
 footer {
   border-top: 5px solid #aa6666;
 }
