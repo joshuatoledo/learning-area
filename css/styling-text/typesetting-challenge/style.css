@@ -62,6 +62,8 @@ section > h2 {
   margin: 0 auto;
 }
 
+/* styling links  */
+
 a {
   outline-color: transparent;
 }
@@ -94,6 +96,32 @@ a[href^="http"]::after {
 
   background-size: 100%;
   background-image: url("picture.png");
+}
+
+/* list Styling */
+
+ul li {
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+/* Navigation menu styling */
+
+nav ul {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 24px 42px;
+  background-color: #e0dada;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-family: "Google Sans";
+  text-transform: uppercase;
+  border: 2px solid #100000;
 }
 
 footer {
